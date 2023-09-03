@@ -1,9 +1,23 @@
 public enum Animal {
-    DOG,CAT,FROG;
+    DOG("собака"),CAT("кот"),FROG("лягушка");
 
     private String translation;
-    private Animal(){
-
+    Animal(String translation){
+        this.translation = translation;
     }
+
+    public String getTranslation(){
+        return translation;
+    }
+
+    public String toString(){
+        return "Перевод на русский язык " + translation;
+    }
+
+
+
+
+
+
 
 }

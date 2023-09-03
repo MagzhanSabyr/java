@@ -5,6 +5,15 @@ public class Test {
 
 
     public static void main(String[] args) {
+
+//        Animal animal = Animal.CAT;
+//        System.out.println(animal.getTranslation());
+//        System.out.println(animal.toString());
+//
+//        Season season = Season.WINTER;
+//        System.out.println(season.getTemperature());
+
+
 //        int animal = DOG;
 //        switch (animal ){
 //            case DOG:
@@ -31,10 +40,10 @@ public class Test {
 //                break;
 //        }
 
-        Season season = Season.SUMMER;
+//        Season season = Season.SUMMER;
         // Object -> Enum -> Season
 
-        System.out.println(season.getClass());
+//        System.out.println(season.getClass());
 
 //        switch (season){
 //            case SUMMER:
@@ -44,6 +53,19 @@ public class Test {
 //                System.out.println("It's cold outside");
 //                break;
 //        }
+
+        Season season = Season.AUTUMN;
+        Animal animal = Animal.CAT;
+        System.out.println(season.name());
+        System.out.println(animal.name());
+
+        Animal frog = Animal.valueOf("FROG");
+        System.out.println(frog.getTranslation());
+
+        Season winter = Season.WINTER;
+        System.out.println(winter.ordinal());
+
+
 
 
 

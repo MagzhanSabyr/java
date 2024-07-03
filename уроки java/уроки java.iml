@@ -5,9 +5,22 @@
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/Lesson27" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesson28" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lesson29" isTestSource="false" />
-      <sourceFolder url="file://$MODULE_DIR$/Lesson32" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/Lesson34" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson35" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson36" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson37" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson38" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson39" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson40" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson41" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson42" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson43" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson44" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson45" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson46" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson47" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/Lesson48" isTestSource="false" />
+      <sourceFolder url="file://$MODULE_DIR$/javaStepik" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/доLesson27" isTestSource="false" />
     </content>
     <orderEntry type="inheritedJdk" />

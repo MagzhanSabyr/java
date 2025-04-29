@@ -1,0 +1,957 @@
+14-Jan-2025 08:56:56.805 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.2
+14-Jan-2025 08:56:56.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 15:19:37 UTC
+14-Jan-2025 08:56:56.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.2.0
+14-Jan-2025 08:56:56.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Jan-2025 08:56:56.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             15.2
+14-Jan-2025 08:56:56.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+14-Jan-2025 08:56:56.806 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/magzhansabyr/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home
+14-Jan-2025 08:56:56.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            22.0.1+8-16
+14-Jan-2025 08:56:56.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-Jan-2025 08:56:56.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 08:56:56.807 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/conf/logging.properties
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 08:56:56.811 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/temp
+14-Jan-2025 08:56:56.815 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/magzhansabyr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Jan-2025 08:56:56.931 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:56:56.941 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [212] milliseconds
+14-Jan-2025 08:56:56.956 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Jan-2025 08:56:56.956 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+14-Jan-2025 08:56:56.959 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/docs]
+14-Jan-2025 08:56:57.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/docs] has finished in [107] ms
+14-Jan-2025 08:56:57.067 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/manager]
+14-Jan-2025 08:56:57.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/manager] has finished in [14] ms
+14-Jan-2025 08:56:57.081 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/examples]
+14-Jan-2025 08:56:57.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/examples] has finished in [81] ms
+14-Jan-2025 08:56:57.162 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/ROOT]
+14-Jan-2025 08:56:57.169 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/ROOT] has finished in [7] ms
+14-Jan-2025 08:56:57.170 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/host-manager]
+14-Jan-2025 08:56:57.176 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/host-manager] has finished in [6] ms
+14-Jan-2025 08:56:57.178 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:56:57.181 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [240] milliseconds
+14-Jan-2025 08:57:37.532 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Jan-2025 08:57:37.532 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:57:37.534 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Jan-2025 08:57:37.542 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:57:37.544 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:58:01.852 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.2
+14-Jan-2025 08:58:01.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 15:19:37 UTC
+14-Jan-2025 08:58:01.853 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.2.0
+14-Jan-2025 08:58:01.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Jan-2025 08:58:01.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             15.2
+14-Jan-2025 08:58:01.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+14-Jan-2025 08:58:01.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/magzhansabyr/Library/Java/JavaVirtualMachines/openjdk-22.0.1/Contents/Home
+14-Jan-2025 08:58:01.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            22.0.1+8-16
+14-Jan-2025 08:58:01.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     Oracle Corporation
+14-Jan-2025 08:58:01.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 08:58:01.854 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/conf/logging.properties
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 08:58:01.858 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/temp
+14-Jan-2025 08:58:01.862 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/magzhansabyr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Jan-2025 08:58:01.968 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:58:01.977 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [193] milliseconds
+14-Jan-2025 08:58:01.989 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Jan-2025 08:58:01.989 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+14-Jan-2025 08:58:01.992 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/docs]
+14-Jan-2025 08:58:02.087 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/docs] has finished in [94] ms
+14-Jan-2025 08:58:02.088 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/manager]
+14-Jan-2025 08:58:02.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/manager] has finished in [12] ms
+14-Jan-2025 08:58:02.100 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/examples]
+14-Jan-2025 08:58:02.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/examples] has finished in [75] ms
+14-Jan-2025 08:58:02.175 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/ROOT]
+14-Jan-2025 08:58:02.182 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/ROOT] has finished in [7] ms
+14-Jan-2025 08:58:02.183 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/host-manager]
+14-Jan-2025 08:58:02.189 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/host-manager] has finished in [7] ms
+14-Jan-2025 08:58:02.190 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 08:58:02.194 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [216] milliseconds
+14-Jan-2025 09:01:12.323 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 09:01:14.679 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 09:01:22.490 INFO [Catalina-utility-2] liquibase.database.null Set default schema name to public
+14-Jan-2025 09:01:22.774 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 09:01:22.780 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 09:01:22.789 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 09:01:22.794 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 09:01:22.821 INFO [Catalina-utility-2] liquibase.changelog.null Creating database history table with name: public.databasechangelog
+14-Jan-2025 09:01:22.843 INFO [Catalina-utility-2] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:01:22.914 INFO [Catalina-utility-2] liquibase.lockservice.null Successfully acquired change log lock
+14-Jan-2025 09:01:22.915 INFO [Catalina-utility-2] liquibase.command.null Using deploymentId: 6827282915
+14-Jan-2025 09:01:22.916 INFO [Catalina-utility-2] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:01:22.937 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/flowuidata/liquibase/changelog/001-flowui-data.xml::1::flowui-data
+14-Jan-2025 09:01:22.942 INFO [Catalina-utility-2] liquibase.changelog.null Table FLOWUI_FILTER_CONFIGURATION created
+14-Jan-2025 09:01:22.942 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/flowuidata/liquibase/changelog/001-flowui-data.xml::1::flowui-data ran successfully in 5ms
+14-Jan-2025 09:01:22.944 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/flowuidata/liquibase/changelog/001-flowui-data.xml::2::flowui-data
+14-Jan-2025 09:01:22.945 INFO [Catalina-utility-2] liquibase.changelog.null Columns SYS_TENANT_ID(varchar(255)) added to FLOWUI_FILTER_CONFIGURATION
+14-Jan-2025 09:01:22.945 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/flowuidata/liquibase/changelog/001-flowui-data.xml::2::flowui-data ran successfully in 1ms
+14-Jan-2025 09:01:22.946 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/flowuidata/liquibase/changelog/001-flowui-data.xml::3::flowui-data
+14-Jan-2025 09:01:22.947 INFO [Catalina-utility-2] liquibase.changelog.null Columns NAME(varchar(255)),DEFAULT_FOR_ALL(boolean) added to FLOWUI_FILTER_CONFIGURATION
+14-Jan-2025 09:01:22.948 INFO [Catalina-utility-2] liquibase.changelog.null Column FLOWUI_FILTER_CONFIGURATION.CODE renamed to CONFIGURATION_ID
+14-Jan-2025 09:01:22.948 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/flowuidata/liquibase/changelog/001-flowui-data.xml::3::flowui-data ran successfully in 2ms
+14-Jan-2025 09:01:22.949 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/flowuidata/liquibase/changelog/001-flowui-data.xml::4::flowui-data
+14-Jan-2025 09:01:22.951 INFO [Catalina-utility-2] liquibase.changelog.null Table FLOWUI_USER_SETTINGS created
+14-Jan-2025 09:01:22.951 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/flowuidata/liquibase/changelog/001-flowui-data.xml::4::flowui-data ran successfully in 2ms
+14-Jan-2025 09:01:22.952 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/flowuidata/liquibase/changelog/002-flowui-data.xml::1::flowui-data
+14-Jan-2025 09:01:22.954 INFO [Catalina-utility-2] liquibase.changelog.null FLOWUI_USER_SETTINGS.CREATED_BY datatype was changed to varchar(255)
+14-Jan-2025 09:01:22.954 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/flowuidata/liquibase/changelog/002-flowui-data.xml::1::flowui-data ran successfully in 1ms
+14-Jan-2025 09:01:22.957 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/securitydata/liquibase/changelog/001-security-data.xml::1::security-data
+14-Jan-2025 09:01:22.961 INFO [Catalina-utility-2] liquibase.changelog.null Table SEC_RESOURCE_ROLE created
+14-Jan-2025 09:01:22.963 INFO [Catalina-utility-2] liquibase.changelog.null Table SEC_ROW_LEVEL_ROLE created
+14-Jan-2025 09:01:22.969 INFO [Catalina-utility-2] liquibase.changelog.null Table SEC_RESOURCE_POLICY created
+14-Jan-2025 09:01:22.971 INFO [Catalina-utility-2] liquibase.changelog.null Table SEC_ROW_LEVEL_POLICY created
+14-Jan-2025 09:01:22.973 INFO [Catalina-utility-2] liquibase.changelog.null Table SEC_ROLE_ASSIGNMENT created
+14-Jan-2025 09:01:22.973 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/securitydata/liquibase/changelog/001-security-data.xml::1::security-data ran successfully in 16ms
+14-Jan-2025 09:01:22.974 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/securitydata/liquibase/changelog/001-security-data.xml::2-postgresql::security-data
+14-Jan-2025 09:01:22.975 INFO [Catalina-utility-2] liquibase.changelog.null Index IDX_RESOURCE_ROLE_UN_C created
+14-Jan-2025 09:01:22.976 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/securitydata/liquibase/changelog/001-security-data.xml::2-postgresql::security-data ran successfully in 2ms
+14-Jan-2025 09:01:22.976 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/securitydata/liquibase/changelog/001-security-data.xml::3-postgresql::security-data
+14-Jan-2025 09:01:22.977 INFO [Catalina-utility-2] liquibase.changelog.null Index IDX_ROW_LEVEL_ROLE_UN_C created
+14-Jan-2025 09:01:22.977 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/securitydata/liquibase/changelog/001-security-data.xml::3-postgresql::security-data ran successfully in 1ms
+14-Jan-2025 09:01:22.978 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/securitydata/liquibase/changelog/001-security-data.xml::4::security-data
+14-Jan-2025 09:01:22.979 INFO [Catalina-utility-2] liquibase.changelog.null Table persistent_logins created
+14-Jan-2025 09:01:22.979 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/securitydata/liquibase/changelog/001-security-data.xml::4::security-data ran successfully in 1ms
+14-Jan-2025 09:01:22.980 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/securitydata/liquibase/changelog/002-security-data.xml::1::security-data
+14-Jan-2025 09:01:22.981 INFO [Catalina-utility-2] liquibase.changelog.null Columns DESCRIPTION(text) added to SEC_RESOURCE_ROLE
+14-Jan-2025 09:01:22.981 INFO [Catalina-utility-2] liquibase.changelog.null Columns DESCRIPTION(text) added to SEC_ROW_LEVEL_ROLE
+14-Jan-2025 09:01:22.981 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/securitydata/liquibase/changelog/002-security-data.xml::1::security-data ran successfully in 1ms
+14-Jan-2025 09:01:22.982 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/securitydata/liquibase/changelog/002-security-data.xml::2::security-data
+14-Jan-2025 09:01:22.982 INFO [Catalina-utility-2] liquibase.changelog.null Columns SCOPES(varchar(1000)) added to SEC_RESOURCE_ROLE
+14-Jan-2025 09:01:22.982 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/securitydata/liquibase/changelog/002-security-data.xml::2::security-data ran successfully in 0ms
+14-Jan-2025 09:01:22.983 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: io/jmix/securitydata/liquibase/changelog/003-security-data.xml::1::security-data
+14-Jan-2025 09:01:22.985 INFO [Catalina-utility-2] liquibase.changelog.null Table SEC_USER_SUBSTITUTION created
+14-Jan-2025 09:01:22.986 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet io/jmix/securitydata/liquibase/changelog/003-security-data.xml::1::security-data ran successfully in 3ms
+14-Jan-2025 09:01:22.987 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/010-init-user.xml::1::jmixProject
+14-Jan-2025 09:01:22.988 INFO [Catalina-utility-2] liquibase.changelog.null Table USER_ created
+14-Jan-2025 09:01:22.988 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/010-init-user.xml::1::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:22.989 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/010-init-user.xml::2::jmixProject
+14-Jan-2025 09:01:22.990 INFO [Catalina-utility-2] liquibase.changelog.null Index IDX_USER__ON_USERNAME created
+14-Jan-2025 09:01:22.990 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/010-init-user.xml::2::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:22.991 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/010-init-user.xml::3::jmixProject
+14-Jan-2025 09:01:22.991 INFO [Catalina-utility-2] liquibase.changelog.null New row inserted into USER_
+14-Jan-2025 09:01:22.991 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/010-init-user.xml::3::jmixProject ran successfully in 0ms
+14-Jan-2025 09:01:22.992 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/010-init-user.xml::4::jmixProject
+14-Jan-2025 09:01:22.993 INFO [Catalina-utility-2] liquibase.changelog.null New row inserted into SEC_ROLE_ASSIGNMENT
+14-Jan-2025 09:01:22.993 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/010-init-user.xml::4::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:22.994 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::1::jmixProject
+14-Jan-2025 09:01:22.995 INFO [Catalina-utility-2] liquibase.changelog.null Table PROJECT created
+14-Jan-2025 09:01:22.995 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::1::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:22.996 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::2::jmixProject
+14-Jan-2025 09:01:22.997 INFO [Catalina-utility-2] liquibase.changelog.null Table TASK created
+14-Jan-2025 09:01:22.997 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::2::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:22.998 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::3::jmixProject
+14-Jan-2025 09:01:22.999 INFO [Catalina-utility-2] liquibase.changelog.null Table TIME_ENTRY created
+14-Jan-2025 09:01:23.000 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::3::jmixProject ran successfully in 2ms
+14-Jan-2025 09:01:23.000 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::4::jmixProject
+14-Jan-2025 09:01:23.001 INFO [Catalina-utility-2] liquibase.changelog.null Index IDX_PROJECT_MANAGER created
+14-Jan-2025 09:01:23.003 INFO [Catalina-utility-2] liquibase.changelog.null Foreign key constraint added to PROJECT (MANAGER_ID)
+14-Jan-2025 09:01:23.003 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::4::jmixProject ran successfully in 3ms
+14-Jan-2025 09:01:23.004 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::5::jmixProject
+14-Jan-2025 09:01:23.004 INFO [Catalina-utility-2] liquibase.changelog.null Index IDX_TASK_PROJECT created
+14-Jan-2025 09:01:23.005 INFO [Catalina-utility-2] liquibase.changelog.null Foreign key constraint added to TASK (PROJECT_ID)
+14-Jan-2025 09:01:23.005 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::5::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:23.006 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::6::jmixProject
+14-Jan-2025 09:01:23.007 INFO [Catalina-utility-2] liquibase.changelog.null Index IDX_TASK__ASSIGNEE created
+14-Jan-2025 09:01:23.007 INFO [Catalina-utility-2] liquibase.changelog.null Foreign key constraint added to TASK (ASSIGNEE_ID)
+14-Jan-2025 09:01:23.007 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::6::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:23.008 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::7::jmixProject
+14-Jan-2025 09:01:23.009 INFO [Catalina-utility-2] liquibase.changelog.null Index IDX_TIME_ENTRY_TASK created
+14-Jan-2025 09:01:23.009 INFO [Catalina-utility-2] liquibase.changelog.null Foreign key constraint added to TIME_ENTRY (TASK_ID)
+14-Jan-2025 09:01:23.009 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::7::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:23.010 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::8::jmixProject
+14-Jan-2025 09:01:23.011 INFO [Catalina-utility-2] liquibase.changelog.null Index IDX_TIME_ENTRY_USER created
+14-Jan-2025 09:01:23.011 INFO [Catalina-utility-2] liquibase.changelog.null Foreign key constraint added to TIME_ENTRY (USER_ID)
+14-Jan-2025 09:01:23.011 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml::8::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:23.012 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml::1::jmixProject
+14-Jan-2025 09:01:23.013 INFO [Catalina-utility-2] liquibase.changelog.null Columns AVATAR(BLOB) added to USER_
+14-Jan-2025 09:01:23.013 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml::1::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:23.013 INFO [Catalina-utility-2] liquibase.ui.null Running Changeset: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml::1::jmixProject
+14-Jan-2025 09:01:23.014 INFO [Catalina-utility-2] liquibase.changelog.null Columns ATTACHMENT(VARCHAR(1024)) added to TASK
+14-Jan-2025 09:01:23.014 INFO [Catalina-utility-2] liquibase.changelog.null ChangeSet com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml::1::jmixProject ran successfully in 1ms
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null Run:                         26
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null Previously run:               0
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null Filtered out:                 5
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null -------------------------------
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null Total change sets:           31
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 09:01:23.018 INFO [Catalina-utility-2] liquibase.util.null Update summary generated
+14-Jan-2025 09:01:23.020 INFO [Catalina-utility-2] liquibase.command.null Update command completed successfully.
+14-Jan-2025 09:01:23.020 INFO [Catalina-utility-2] liquibase.ui.null Liquibase: Update has been successful. Rows affected: 28
+14-Jan-2025 09:01:23.021 INFO [Catalina-utility-2] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 09:01:23.021 INFO [Catalina-utility-2] liquibase.command.null Command execution complete
+14-Jan-2025 09:01:24.568 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [12 245] ms
+14-Jan-2025 09:01:34.571 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jmixProject-0.0.1]
+14-Jan-2025 09:01:34.630 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7af9a948]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@77e1bfeb]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 09:01:34.715 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1 — копия.war]
+14-Jan-2025 09:01:36.836 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 09:01:38.601 INFO [Catalina-utility-1] liquibase.database.null Set default schema name to public
+14-Jan-2025 09:01:38.760 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 09:01:38.764 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 09:01:38.768 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 09:01:38.771 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 09:01:38.814 INFO [Catalina-utility-1] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:01:38.837 INFO [Catalina-utility-1] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 09:01:38.838 INFO [Catalina-utility-1] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:01:38.842 INFO [Catalina-utility-1] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 09:01:38.842 INFO [Catalina-utility-1] liquibase.util.null Run:                          0
+14-Jan-2025 09:01:38.842 INFO [Catalina-utility-1] liquibase.util.null Previously run:              26
+14-Jan-2025 09:01:38.842 INFO [Catalina-utility-1] liquibase.util.null Filtered out:                 5
+14-Jan-2025 09:01:38.842 INFO [Catalina-utility-1] liquibase.util.null -------------------------------
+14-Jan-2025 09:01:38.842 INFO [Catalina-utility-1] liquibase.util.null Total change sets:           31
+14-Jan-2025 09:01:38.842 INFO [Catalina-utility-1] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 09:01:38.842 INFO [Catalina-utility-1] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 09:01:38.843 INFO [Catalina-utility-1] liquibase.util.null Update summary generated
+14-Jan-2025 09:01:38.851 INFO [Catalina-utility-1] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 09:01:38.852 INFO [Catalina-utility-1] liquibase.command.null Command execution complete
+14-Jan-2025 09:01:40.102 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+14-Jan-2025 09:01:40.102 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Context [/jmixProject-0.0.1 — копия] startup failed due to previous errors
+14-Jan-2025 09:01:40.118 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1 — копия] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@ec943df]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@1aec0f9e]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 09:01:40.119 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1 — копия.war] has finished in [5 405] ms
+14-Jan-2025 09:02:20.647 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jmixProject-0.0.1 — копия]
+14-Jan-2025 09:02:20.655 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1 — копия.war]
+14-Jan-2025 09:02:22.662 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 09:02:24.363 INFO [Catalina-utility-1] liquibase.database.null Set default schema name to public
+14-Jan-2025 09:02:24.497 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 09:02:24.501 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 09:02:24.505 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 09:02:24.508 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 09:02:24.542 INFO [Catalina-utility-1] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:02:24.566 INFO [Catalina-utility-1] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 09:02:24.567 INFO [Catalina-utility-1] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:02:24.571 INFO [Catalina-utility-1] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 09:02:24.571 INFO [Catalina-utility-1] liquibase.util.null Run:                          0
+14-Jan-2025 09:02:24.571 INFO [Catalina-utility-1] liquibase.util.null Previously run:              26
+14-Jan-2025 09:02:24.571 INFO [Catalina-utility-1] liquibase.util.null Filtered out:                 5
+14-Jan-2025 09:02:24.571 INFO [Catalina-utility-1] liquibase.util.null -------------------------------
+14-Jan-2025 09:02:24.571 INFO [Catalina-utility-1] liquibase.util.null Total change sets:           31
+14-Jan-2025 09:02:24.571 INFO [Catalina-utility-1] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 09:02:24.571 INFO [Catalina-utility-1] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 09:02:24.572 INFO [Catalina-utility-1] liquibase.util.null Update summary generated
+14-Jan-2025 09:02:24.579 INFO [Catalina-utility-1] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 09:02:24.580 INFO [Catalina-utility-1] liquibase.command.null Command execution complete
+14-Jan-2025 09:02:25.763 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal One or more listeners failed to start. Full details will be found in the appropriate container log file
+14-Jan-2025 09:02:25.764 SEVERE [Catalina-utility-1] org.apache.catalina.core.StandardContext.startInternal Context [/jmixProject-0.0.1 — копия] startup failed due to previous errors
+14-Jan-2025 09:02:25.779 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1 — копия] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@66085161]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@7ed7bef0]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 09:02:25.779 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1 — копия.war] has finished in [5 124] ms
+14-Jan-2025 09:03:15.810 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jmixProject-0.0.1 — копия]
+14-Jan-2025 09:03:15.819 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 09:03:17.780 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 09:03:19.466 INFO [Catalina-utility-1] liquibase.database.null Set default schema name to public
+14-Jan-2025 09:03:19.581 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 09:03:19.584 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 09:03:19.588 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 09:03:19.590 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 09:03:19.617 INFO [Catalina-utility-1] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:03:19.639 INFO [Catalina-utility-1] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 09:03:19.640 INFO [Catalina-utility-1] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:03:19.644 INFO [Catalina-utility-1] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 09:03:19.644 INFO [Catalina-utility-1] liquibase.util.null Run:                          0
+14-Jan-2025 09:03:19.644 INFO [Catalina-utility-1] liquibase.util.null Previously run:              26
+14-Jan-2025 09:03:19.644 INFO [Catalina-utility-1] liquibase.util.null Filtered out:                 5
+14-Jan-2025 09:03:19.644 INFO [Catalina-utility-1] liquibase.util.null -------------------------------
+14-Jan-2025 09:03:19.644 INFO [Catalina-utility-1] liquibase.util.null Total change sets:           31
+14-Jan-2025 09:03:19.644 INFO [Catalina-utility-1] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 09:03:19.644 INFO [Catalina-utility-1] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 09:03:19.645 INFO [Catalina-utility-1] liquibase.util.null Update summary generated
+14-Jan-2025 09:03:19.654 INFO [Catalina-utility-1] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 09:03:19.654 INFO [Catalina-utility-1] liquibase.command.null Command execution complete
+14-Jan-2025 09:03:20.902 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [5 083] ms
+14-Jan-2025 09:03:31.412 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jmixProject-0.0.1]
+14-Jan-2025 09:03:31.451 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@2edd07dd]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@7a017b36]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 09:03:31.455 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 09:03:33.443 INFO [Catalina-utility-1] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 09:03:35.130 INFO [Catalina-utility-1] liquibase.database.null Set default schema name to public
+14-Jan-2025 09:03:35.242 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 09:03:35.245 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 09:03:35.248 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 09:03:35.250 INFO [Catalina-utility-1] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 09:03:35.281 INFO [Catalina-utility-1] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:03:35.303 INFO [Catalina-utility-1] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 09:03:35.304 INFO [Catalina-utility-1] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:03:35.308 INFO [Catalina-utility-1] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 09:03:35.308 INFO [Catalina-utility-1] liquibase.util.null Run:                          0
+14-Jan-2025 09:03:35.308 INFO [Catalina-utility-1] liquibase.util.null Previously run:              26
+14-Jan-2025 09:03:35.308 INFO [Catalina-utility-1] liquibase.util.null Filtered out:                 5
+14-Jan-2025 09:03:35.308 INFO [Catalina-utility-1] liquibase.util.null -------------------------------
+14-Jan-2025 09:03:35.308 INFO [Catalina-utility-1] liquibase.util.null Total change sets:           31
+14-Jan-2025 09:03:35.308 INFO [Catalina-utility-1] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 09:03:35.308 INFO [Catalina-utility-1] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 09:03:35.309 INFO [Catalina-utility-1] liquibase.util.null Update summary generated
+14-Jan-2025 09:03:35.317 INFO [Catalina-utility-1] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 09:03:35.318 INFO [Catalina-utility-1] liquibase.command.null Command execution complete
+14-Jan-2025 09:03:36.659 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [5 204] ms
+14-Jan-2025 09:10:26.975 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jmixProject-0.0.1]
+14-Jan-2025 09:10:27.035 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@7eb27ee2]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@5ec2b346]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 09:10:37.049 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 09:10:39.184 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 09:10:40.929 INFO [Catalina-utility-2] liquibase.database.null Set default schema name to public
+14-Jan-2025 09:10:41.169 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 09:10:41.176 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 09:10:41.182 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 09:10:41.187 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 09:10:41.225 INFO [Catalina-utility-2] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:10:41.250 INFO [Catalina-utility-2] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 09:10:41.251 INFO [Catalina-utility-2] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:10:41.255 INFO [Catalina-utility-2] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 09:10:41.255 INFO [Catalina-utility-2] liquibase.util.null Run:                          0
+14-Jan-2025 09:10:41.255 INFO [Catalina-utility-2] liquibase.util.null Previously run:              26
+14-Jan-2025 09:10:41.255 INFO [Catalina-utility-2] liquibase.util.null Filtered out:                 5
+14-Jan-2025 09:10:41.255 INFO [Catalina-utility-2] liquibase.util.null -------------------------------
+14-Jan-2025 09:10:41.255 INFO [Catalina-utility-2] liquibase.util.null Total change sets:           31
+14-Jan-2025 09:10:41.255 INFO [Catalina-utility-2] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 09:10:41.255 INFO [Catalina-utility-2] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 09:10:41.256 INFO [Catalina-utility-2] liquibase.util.null Update summary generated
+14-Jan-2025 09:10:41.265 INFO [Catalina-utility-2] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 09:10:41.265 INFO [Catalina-utility-2] liquibase.command.null Command execution complete
+14-Jan-2025 09:10:42.522 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [5 473] ms
+14-Jan-2025 09:14:12.691 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jmixProject-0.0.1]
+14-Jan-2025 09:14:12.749 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@68534077]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@79fc4a70]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 09:14:32.772 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 09:14:34.837 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 09:14:36.624 INFO [Catalina-utility-2] liquibase.database.null Set default schema name to public
+14-Jan-2025 09:14:36.803 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 09:14:36.809 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 09:14:36.822 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 09:14:36.827 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 09:14:36.864 INFO [Catalina-utility-2] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:14:36.887 INFO [Catalina-utility-2] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 09:14:36.888 INFO [Catalina-utility-2] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:14:36.892 INFO [Catalina-utility-2] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 09:14:36.892 INFO [Catalina-utility-2] liquibase.util.null Run:                          0
+14-Jan-2025 09:14:36.892 INFO [Catalina-utility-2] liquibase.util.null Previously run:              26
+14-Jan-2025 09:14:36.892 INFO [Catalina-utility-2] liquibase.util.null Filtered out:                 5
+14-Jan-2025 09:14:36.892 INFO [Catalina-utility-2] liquibase.util.null -------------------------------
+14-Jan-2025 09:14:36.892 INFO [Catalina-utility-2] liquibase.util.null Total change sets:           31
+14-Jan-2025 09:14:36.892 INFO [Catalina-utility-2] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 09:14:36.892 INFO [Catalina-utility-2] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 09:14:36.893 INFO [Catalina-utility-2] liquibase.util.null Update summary generated
+14-Jan-2025 09:14:36.901 INFO [Catalina-utility-2] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 09:14:36.902 INFO [Catalina-utility-2] liquibase.command.null Command execution complete
+14-Jan-2025 09:14:38.172 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [5 400] ms
+14-Jan-2025 09:55:26.800 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jmixProject-0.0.1]
+14-Jan-2025 09:55:26.860 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Scheduler-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1223)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+14-Jan-2025 09:55:26.860 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Shared-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ org.atmosphere.cpr.DefaultBroadcaster$1.run(DefaultBroadcaster.java:405)
+ java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+ java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+ java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(ForkJoinTask.java:1726)
+ java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(ForkJoinTask.java:1717)
+ java.base/java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(ForkJoinTask.java:1641)
+ java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+ java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+ java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+ java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+ java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+14-Jan-2025 09:55:26.860 WARNING [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Scheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+14-Jan-2025 09:55:26.861 SEVERE [Catalina-utility-2] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@f1d23e5]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@5620881a]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 09:55:26.867 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 09:55:28.887 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 09:55:30.667 INFO [Catalina-utility-2] liquibase.database.null Set default schema name to public
+14-Jan-2025 09:55:30.788 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 09:55:30.791 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 09:55:30.794 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 09:55:30.796 INFO [Catalina-utility-2] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 09:55:30.835 INFO [Catalina-utility-2] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:55:30.858 INFO [Catalina-utility-2] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 09:55:30.859 INFO [Catalina-utility-2] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 09:55:30.863 INFO [Catalina-utility-2] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 09:55:30.863 INFO [Catalina-utility-2] liquibase.util.null Run:                          0
+14-Jan-2025 09:55:30.863 INFO [Catalina-utility-2] liquibase.util.null Previously run:              26
+14-Jan-2025 09:55:30.863 INFO [Catalina-utility-2] liquibase.util.null Filtered out:                 5
+14-Jan-2025 09:55:30.863 INFO [Catalina-utility-2] liquibase.util.null -------------------------------
+14-Jan-2025 09:55:30.863 INFO [Catalina-utility-2] liquibase.util.null Total change sets:           31
+14-Jan-2025 09:55:30.863 INFO [Catalina-utility-2] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 09:55:30.863 INFO [Catalina-utility-2] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 09:55:30.864 INFO [Catalina-utility-2] liquibase.util.null Update summary generated
+14-Jan-2025 09:55:30.874 INFO [Catalina-utility-2] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 09:55:30.875 INFO [Catalina-utility-2] liquibase.command.null Command execution complete
+14-Jan-2025 09:55:32.391 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [5 524] ms
+14-Jan-2025 09:59:52.586 INFO [Catalina-utility-1] org.apache.catalina.startup.HostConfig.undeploy Undeploying context [/jmixProject-0.0.1]
+14-Jan-2025 09:59:52.662 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Scheduler-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1223)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+14-Jan-2025 09:59:52.662 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Shared-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.LinkedBlockingQueue.poll(LinkedBlockingQueue.java:460)
+ org.atmosphere.cpr.DefaultBroadcaster$1.run(DefaultBroadcaster.java:405)
+ java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+ java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+ java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(ForkJoinTask.java:1726)
+ java.base/java.util.concurrent.ForkJoinTask$RunnableExecuteAction.compute(ForkJoinTask.java:1717)
+ java.base/java.util.concurrent.ForkJoinTask$InterruptibleTask.exec(ForkJoinTask.java:1641)
+ java.base/java.util.concurrent.ForkJoinTask.doExec(ForkJoinTask.java:507)
+ java.base/java.util.concurrent.ForkJoinPool$WorkQueue.topLevelExec(ForkJoinPool.java:1491)
+ java.base/java.util.concurrent.ForkJoinPool.scan(ForkJoinPool.java:2073)
+ java.base/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:2035)
+ java.base/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:187)
+14-Jan-2025 09:59:52.662 WARNING [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Scheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:269)
+ java.base/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1758)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1069)
+ java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1130)
+ java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+ java.base/java.lang.Thread.run(Thread.java:1570)
+14-Jan-2025 09:59:52.664 SEVERE [Catalina-utility-1] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@304bca2c]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@2e458dd8]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 10:16:03.282 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 10:16:05.391 INFO [Catalina-utility-2] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 10:16:08.288 SEVERE [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Ошибка при развертывании архива с веб-приложением [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+	java.lang.IllegalStateException: Error starting child
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:569)
+		at org.apache.catalina.core.StandardHost.addChild(StandardHost.java:653)
+		at org.apache.catalina.startup.HostConfig.deployWAR(HostConfig.java:933)
+		at org.apache.catalina.startup.HostConfig$DeployWar.run(HostConfig.java:1875)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.run(FutureTask.java:317)
+		at org.apache.tomcat.util.threads.InlineExecutorService.execute(InlineExecutorService.java:75)
+		at java.base/java.util.concurrent.AbstractExecutorService.submit(AbstractExecutorService.java:123)
+		at org.apache.catalina.startup.HostConfig.deployWARs(HostConfig.java:735)
+		at org.apache.catalina.startup.HostConfig.deployApps(HostConfig.java:387)
+		at org.apache.catalina.startup.HostConfig.check(HostConfig.java:1642)
+		at org.apache.catalina.startup.HostConfig.lifecycleEvent(HostConfig.java:263)
+		at org.apache.catalina.util.LifecycleBase.fireLifecycleEvent(LifecycleBase.java:109)
+		at org.apache.catalina.core.ContainerBase.backgroundProcess(ContainerBase.java:940)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1139)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.processChildren(ContainerBase.java:1143)
+		at org.apache.catalina.core.ContainerBase$ContainerBackgroundProcessor.run(ContainerBase.java:1121)
+		at java.base/java.util.concurrent.Executors$RunnableAdapter.call(Executors.java:572)
+		at java.base/java.util.concurrent.FutureTask.runAndReset(FutureTask.java:358)
+		at java.base/java.util.concurrent.ScheduledThreadPoolExecutor$ScheduledFutureTask.run(ScheduledThreadPoolExecutor.java:305)
+		at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+		at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+		at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+		at java.base/java.lang.Thread.run(Thread.java:1570)
+	Caused by: org.apache.catalina.LifecycleException: Failed to start component [StandardEngine[Catalina].StandardHost[localhost].StandardContext[/jmixProject-0.0.1]]
+		at org.apache.catalina.util.LifecycleBase.handleSubClassException(LifecycleBase.java:406)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:179)
+		at org.apache.catalina.core.ContainerBase.addChild(ContainerBase.java:566)
+		... 23 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'entityManagerFactory' defined in class path resource [io/jmix/autoconfigure/eclipselink/EclipselinkAutoConfiguration.class]: Failed to initialize dependency 'jmix_Liquibase' of LoadTimeWeaverAware bean 'entityManagerFactory': Error creating bean with name 'jmix_Liquibase' defined in class path resource [io/jmix/autoconfigure/data/JmixLiquibaseAutoConfiguration.class]: liquibase.exception.DatabaseException: org.postgresql.util.PSQLException: FATAL: Postgres.app rejected "trust" authentication
+  Подробности: Unknown processes are not allowed to connect without a password. For more information see https://postgresapp.com/l/app-permissions/
+  Подсказка: Change pg_hba.conf to require a password
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:326)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:205)
+		at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:954)
+		at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:625)
+		at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:146)
+		at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:754)
+		at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:456)
+		at org.springframework.boot.SpringApplication.run(SpringApplication.java:335)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.run(SpringBootServletInitializer.java:174)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.createRootApplicationContext(SpringBootServletInitializer.java:154)
+		at org.springframework.boot.web.servlet.support.SpringBootServletInitializer.onStartup(SpringBootServletInitializer.java:96)
+		at org.springframework.web.SpringServletContainerInitializer.onStartup(SpringServletContainerInitializer.java:171)
+		at org.apache.catalina.core.StandardContext.startInternal(StandardContext.java:4393)
+		at org.apache.catalina.util.LifecycleBase.start(LifecycleBase.java:164)
+		... 24 more
+	Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'jmix_Liquibase' defined in class path resource [io/jmix/autoconfigure/data/JmixLiquibaseAutoConfiguration.class]: liquibase.exception.DatabaseException: org.postgresql.util.PSQLException: FATAL: Postgres.app rejected "trust" authentication
+  Подробности: Unknown processes are not allowed to connect without a password. For more information see https://postgresapp.com/l/app-permissions/
+  Подсказка: Change pg_hba.conf to require a password
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1806)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:600)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:522)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:337)
+		at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:335)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:200)
+		at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:313)
+		... 37 more
+	Caused by: liquibase.exception.UnexpectedLiquibaseException: liquibase.exception.DatabaseException: org.postgresql.util.PSQLException: FATAL: Postgres.app rejected "trust" authentication
+  Подробности: Unknown processes are not allowed to connect without a password. For more information see https://postgresapp.com/l/app-permissions/
+  Подсказка: Change pg_hba.conf to require a password
+		at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:259)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1853)
+		at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1802)
+		... 44 more
+	Caused by: liquibase.exception.DatabaseException: org.postgresql.util.PSQLException: FATAL: Postgres.app rejected "trust" authentication
+  Подробности: Unknown processes are not allowed to connect without a password. For more information see https://postgresapp.com/l/app-permissions/
+  Подсказка: Change pg_hba.conf to require a password
+		at liquibase.integration.spring.SpringLiquibase.lambda$afterPropertiesSet$0(SpringLiquibase.java:251)
+		at liquibase.Scope.lambda$child$0(Scope.java:190)
+		at liquibase.Scope.child(Scope.java:199)
+		at liquibase.Scope.child(Scope.java:189)
+		at liquibase.Scope.child(Scope.java:168)
+		at liquibase.Scope.child(Scope.java:256)
+		at liquibase.integration.spring.SpringLiquibase.afterPropertiesSet(SpringLiquibase.java:242)
+		... 46 more
+	Caused by: org.postgresql.util.PSQLException: FATAL: Postgres.app rejected "trust" authentication
+  Подробности: Unknown processes are not allowed to connect without a password. For more information see https://postgresapp.com/l/app-permissions/
+  Подсказка: Change pg_hba.conf to require a password
+		at org.postgresql.core.v3.ConnectionFactoryImpl.doAuthentication(ConnectionFactoryImpl.java:711)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.tryConnect(ConnectionFactoryImpl.java:213)
+		at org.postgresql.core.v3.ConnectionFactoryImpl.openConnectionImpl(ConnectionFactoryImpl.java:268)
+		at org.postgresql.core.ConnectionFactory.openConnection(ConnectionFactory.java:54)
+		at org.postgresql.jdbc.PgConnection.<init>(PgConnection.java:273)
+		at org.postgresql.Driver.makeConnection(Driver.java:446)
+		at org.postgresql.Driver.connect(Driver.java:298)
+		at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:137)
+		at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:360)
+		at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:202)
+		at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:461)
+		at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:550)
+		at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:98)
+		at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:111)
+		at liquibase.integration.spring.SpringLiquibase.lambda$afterPropertiesSet$0(SpringLiquibase.java:246)
+		... 52 more
+14-Jan-2025 10:16:08.289 INFO [Catalina-utility-2] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [5 007] ms
+14-Jan-2025 10:19:02.086 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.2
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 15:19:37 UTC
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.2.0
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             15.2
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/magzhansabyr/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+1-b1207.37
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     JetBrains s.r.o.
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 10:19:02.088 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 10:19:02.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/conf/logging.properties
+14-Jan-2025 10:19:02.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Jan-2025 10:19:02.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Jan-2025 10:19:02.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Jan-2025 10:19:02.092 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Jan-2025 10:19:02.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Jan-2025 10:19:02.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Jan-2025 10:19:02.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Jan-2025 10:19:02.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Jan-2025 10:19:02.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+14-Jan-2025 10:19:02.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 10:19:02.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 10:19:02.093 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/temp
+14-Jan-2025 10:19:02.097 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/magzhansabyr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Jan-2025 10:19:02.187 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:19:02.196 SEVERE [main] org.apache.catalina.util.LifecycleBase.handleSubClassException Ошибка инициализации компонента [Connector["http-nio-8080"]]
+	org.apache.catalina.LifecycleException: Protocol handler initialization failed
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1035)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardService.initInternal(StandardService.java:525)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.core.StandardServer.initInternal(StandardServer.java:953)
+		at org.apache.catalina.util.LifecycleBase.init(LifecycleBase.java:122)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:710)
+		at org.apache.catalina.startup.Catalina.load(Catalina.java:733)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.load(Bootstrap.java:299)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:469)
+	Caused by: java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.netBind(ServerSocketChannelImpl.java:337)
+		at java.base/sun.nio.ch.ServerSocketChannelImpl.bind(ServerSocketChannelImpl.java:294)
+		at org.apache.tomcat.util.net.NioEndpoint.initServerSocket(NioEndpoint.java:240)
+		at org.apache.tomcat.util.net.NioEndpoint.bind(NioEndpoint.java:195)
+		at org.apache.tomcat.util.net.AbstractEndpoint.bindWithCleanup(AbstractEndpoint.java:1472)
+		at org.apache.tomcat.util.net.AbstractEndpoint.init(AbstractEndpoint.java:1485)
+		at org.apache.coyote.AbstractProtocol.init(AbstractProtocol.java:633)
+		at org.apache.coyote.http11.AbstractHttp11Protocol.init(AbstractHttp11Protocol.java:83)
+		at org.apache.catalina.connector.Connector.initInternal(Connector.java:1033)
+		... 13 more
+14-Jan-2025 10:19:02.196 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [172] milliseconds
+14-Jan-2025 10:19:02.210 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Jan-2025 10:19:02.210 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+14-Jan-2025 10:19:02.216 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 10:19:04.008 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 10:19:08.512 INFO [main] liquibase.database.null Set default schema name to public
+14-Jan-2025 10:19:08.741 INFO [main] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 10:19:08.748 INFO [main] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 10:19:08.754 INFO [main] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 10:19:08.758 INFO [main] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 10:19:08.796 INFO [main] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 10:19:08.828 INFO [main] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 10:19:08.828 INFO [main] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 10:19:08.834 INFO [main] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 10:19:08.834 INFO [main] liquibase.util.null Run:                          0
+14-Jan-2025 10:19:08.834 INFO [main] liquibase.util.null Previously run:              26
+14-Jan-2025 10:19:08.834 INFO [main] liquibase.util.null Filtered out:                 5
+14-Jan-2025 10:19:08.834 INFO [main] liquibase.util.null -------------------------------
+14-Jan-2025 10:19:08.834 INFO [main] liquibase.util.null Total change sets:           31
+14-Jan-2025 10:19:08.834 INFO [main] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 10:19:08.834 INFO [main] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 10:19:08.835 INFO [main] liquibase.util.null Update summary generated
+14-Jan-2025 10:19:08.847 INFO [main] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 10:19:08.848 INFO [main] liquibase.command.null Command execution complete
+14-Jan-2025 10:19:10.221 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [8 005] ms
+14-Jan-2025 10:19:10.221 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/docs]
+14-Jan-2025 10:19:10.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/docs] has finished in [8] ms
+14-Jan-2025 10:19:10.229 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/manager]
+14-Jan-2025 10:19:10.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/manager] has finished in [9] ms
+14-Jan-2025 10:19:10.238 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/examples]
+14-Jan-2025 10:19:10.286 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/examples] has finished in [48] ms
+14-Jan-2025 10:19:10.286 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/ROOT]
+14-Jan-2025 10:19:10.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/ROOT] has finished in [4] ms
+14-Jan-2025 10:19:10.290 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/host-manager]
+14-Jan-2025 10:19:10.295 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/host-manager] has finished in [5] ms
+14-Jan-2025 10:19:10.296 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [8099] milliseconds
+14-Jan-2025 10:19:10.296 SEVERE [main] org.apache.catalina.core.StandardServer.await Failed to create server shutdown socket on address [localhost] and port [8005] (base port [8005] and offset [0])
+	java.net.BindException: Address already in use
+		at java.base/sun.nio.ch.Net.bind0(Native Method)
+		at java.base/sun.nio.ch.Net.bind(Net.java:555)
+		at java.base/sun.nio.ch.Net.bind(Net.java:544)
+		at java.base/sun.nio.ch.NioSocketImpl.bind(NioSocketImpl.java:648)
+		at java.base/java.net.ServerSocket.bind(ServerSocket.java:388)
+		at java.base/java.net.ServerSocket.<init>(ServerSocket.java:274)
+		at org.apache.catalina.core.StandardServer.await(StandardServer.java:532)
+		at org.apache.catalina.startup.Catalina.await(Catalina.java:849)
+		at org.apache.catalina.startup.Catalina.start(Catalina.java:797)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+		at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+		at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+		at java.base/java.lang.reflect.Method.invoke(Method.java:569)
+		at org.apache.catalina.startup.Bootstrap.start(Bootstrap.java:342)
+		at org.apache.catalina.startup.Bootstrap.main(Bootstrap.java:470)
+14-Jan-2025 10:19:10.296 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:19:10.296 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Jan-2025 10:19:10.321 SEVERE [main] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@22550c23]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@65a8c707]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 10:19:10.323 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:19:10.324 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:19:40.626 INFO [main] org.apache.catalina.core.StandardServer.await A valid shutdown command was received via the shutdown port. Stopping the Server instance.
+14-Jan-2025 10:19:40.627 INFO [main] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:19:40.627 INFO [main] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Jan-2025 10:19:40.634 INFO [main] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:19:40.637 INFO [main] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:19:40.638 WARNING [main] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesJdbc The web application [jmixProject-0.0.1] registered the JDBC driver [org.postgresql.Driver] but failed to unregister it when the web application was stopped. To prevent a memory leak, the JDBC Driver has been forcibly unregistered.
+14-Jan-2025 10:20:03.627 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Имя версии сервера:    Apache Tomcat/11.0.2
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Сервер собран:         Dec 5 2024 15:19:37 UTC
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Номер версии сервера:  11.0.2.0
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log OS Name:               Mac OS X
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия ОС:             15.2
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Архитектура:           aarch64
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Java Home:             /Users/magzhansabyr/Library/Java/JavaVirtualMachines/jbr-17.0.12/Contents/Home
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Версия JVM:            17.0.12+1-b1207.37
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Производитель JVM:     JetBrains s.r.o.
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_BASE:         /Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 10:20:03.628 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log CATALINA_HOME:         /Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.config.file=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/conf/logging.properties
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.util.logging.manager=org.apache.juli.ClassLoaderLogManager
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djdk.tls.ephemeralDHKeySize=2048
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dorg.apache.catalina.security.SecurityListener.UMASK=0027
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.lang=ALL-UNNAMED
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.io=ALL-UNNAMED
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util=ALL-UNNAMED
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --add-opens=java.rmi/sun.rmi.transport=ALL-UNNAMED
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: --enable-native-access=ALL-UNNAMED
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.base=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Dcatalina.home=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2
+14-Jan-2025 10:20:03.633 INFO [main] org.apache.catalina.startup.VersionLoggerListener.log Command line argument: -Djava.io.tmpdir=/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/temp
+14-Jan-2025 10:20:03.637 INFO [main] org.apache.catalina.core.AprLifecycleListener.lifecycleEvent The Apache Tomcat Native library which allows using OpenSSL was not found on the java.library.path: [/Users/magzhansabyr/Library/Java/Extensions:/Library/Java/Extensions:/Network/Library/Java/Extensions:/System/Library/Java/Extensions:/usr/lib/java:.]
+14-Jan-2025 10:20:03.725 INFO [main] org.apache.coyote.AbstractProtocol.init Инициализация ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:20:03.736 INFO [main] org.apache.catalina.startup.Catalina.load Server initialization in [172] milliseconds
+14-Jan-2025 10:20:03.750 INFO [main] org.apache.catalina.core.StandardService.startInternal Starting service [Catalina]
+14-Jan-2025 10:20:03.750 INFO [main] org.apache.catalina.core.StandardEngine.startInternal Starting Servlet engine: [Apache Tomcat/11.0.2]
+14-Jan-2025 10:20:03.756 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deploying web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war]
+14-Jan-2025 10:20:05.510 INFO [main] org.apache.jasper.servlet.TldScanner.scanJars At least one JAR was scanned for TLDs yet contained no TLDs. Enable debug logging for this logger for a complete list of JARs that were scanned but no TLDs were found in them. Skipping unneeded JARs during scanning can improve startup time and JSP compilation time.
+14-Jan-2025 10:20:07.606 INFO [main] liquibase.database.null Set default schema name to public
+14-Jan-2025 10:20:07.839 INFO [main] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/010-init-user.xml
+14-Jan-2025 10:20:07.845 INFO [main] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/05-162105-6071a460.xml
+14-Jan-2025 10:20:07.851 INFO [main] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-120708-6071a460.xml
+14-Jan-2025 10:20:07.855 INFO [main] liquibase.changelog.null Reading resource: com/company/jmixproject/liquibase/changelog/2025/01/09-124929-6071a460.xml
+14-Jan-2025 10:20:07.894 INFO [main] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 10:20:07.931 INFO [main] liquibase.ui.null Database is up to date, no changesets to execute
+14-Jan-2025 10:20:07.932 INFO [main] liquibase.changelog.null Reading from public.databasechangelog
+14-Jan-2025 10:20:07.938 INFO [main] liquibase.util.null UPDATE SUMMARY
+14-Jan-2025 10:20:07.938 INFO [main] liquibase.util.null Run:                          0
+14-Jan-2025 10:20:07.938 INFO [main] liquibase.util.null Previously run:              26
+14-Jan-2025 10:20:07.938 INFO [main] liquibase.util.null Filtered out:                 5
+14-Jan-2025 10:20:07.938 INFO [main] liquibase.util.null -------------------------------
+14-Jan-2025 10:20:07.938 INFO [main] liquibase.util.null Total change sets:           31
+14-Jan-2025 10:20:07.938 INFO [main] liquibase.util.null FILTERED CHANGE SETS SUMMARY
+14-Jan-2025 10:20:07.938 INFO [main] liquibase.util.null DBMS mismatch:                5
+14-Jan-2025 10:20:07.939 INFO [main] liquibase.util.null Update summary generated
+14-Jan-2025 10:20:07.950 INFO [main] liquibase.lockservice.null Successfully released change log lock
+14-Jan-2025 10:20:07.951 INFO [main] liquibase.command.null Command execution complete
+14-Jan-2025 10:20:09.510 INFO [main] org.apache.catalina.startup.HostConfig.deployWAR Deployment of web application archive [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/jmixProject-0.0.1.war] has finished in [5 754] ms
+14-Jan-2025 10:20:09.510 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/docs]
+14-Jan-2025 10:20:09.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/docs] has finished in [8] ms
+14-Jan-2025 10:20:09.518 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/manager]
+14-Jan-2025 10:20:09.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/manager] has finished in [10] ms
+14-Jan-2025 10:20:09.528 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/examples]
+14-Jan-2025 10:20:09.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/examples] has finished in [56] ms
+14-Jan-2025 10:20:09.584 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/ROOT]
+14-Jan-2025 10:20:09.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/ROOT] has finished in [5] ms
+14-Jan-2025 10:20:09.589 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Установка веб приложения в папку [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/host-manager]
+14-Jan-2025 10:20:09.595 INFO [main] org.apache.catalina.startup.HostConfig.deployDirectory Deployment of web application directory [/Users/magzhansabyr/Downloads/apache-tomcat-11.0.2/webapps/host-manager] has finished in [6] ms
+14-Jan-2025 10:20:09.596 INFO [main] org.apache.coyote.AbstractProtocol.start Starting ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 10:20:09.607 INFO [main] org.apache.catalina.startup.Catalina.start Server startup in [5871] milliseconds
+14-Jan-2025 10:20:15.583 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-coffee-tF1KKK0C.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.584 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-coffee-tF1KKK0C.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.584 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-coffee-tF1KKK0C.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.584 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-coffee-tF1KKK0C.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.593 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-html-tuOxubYY.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.593 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-html-tuOxubYY.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.594 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-html-tuOxubYY.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.594 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-html-tuOxubYY.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.594 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-html-tuOxubYY.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.595 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-html-tuOxubYY.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.595 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-html-tuOxubYY.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.595 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-html-tuOxubYY.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.599 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-javascript-DA1h0H43.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.599 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-javascript-DA1h0H43.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.599 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-javascript-DA1h0H43.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.600 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-javascript-DA1h0H43.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.601 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-javascript-DA1h0H43.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.601 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-javascript-DA1h0H43.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.601 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-javascript-DA1h0H43.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.602 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-javascript-DA1h0H43.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.607 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-json-CwlpksUr.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.607 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-json-CwlpksUr.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.608 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-json-CwlpksUr.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.608 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-json-CwlpksUr.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.611 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-lua-Dbf2A61A.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.611 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-lua-Dbf2A61A.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.611 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-lua-Dbf2A61A.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.612 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-lua-Dbf2A61A.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.612 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-lua-Dbf2A61A.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.612 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-lua-Dbf2A61A.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.612 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-lua-Dbf2A61A.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.613 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-lua-Dbf2A61A.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.618 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-php-BoJdnEne.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.618 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-php-BoJdnEne.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.619 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-php-BoJdnEne.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.619 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-php-BoJdnEne.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.619 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-php-BoJdnEne.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.619 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-php-BoJdnEne.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.620 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-php-BoJdnEne.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.620 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-php-BoJdnEne.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.623 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xml-aU0JUoe_.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.623 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xml-aU0JUoe_.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.623 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xml-aU0JUoe_.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.623 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xml-aU0JUoe_.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.624 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xml-aU0JUoe_.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.624 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xml-aU0JUoe_.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.624 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xml-aU0JUoe_.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.625 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xml-aU0JUoe_.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.629 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xquery-6utXviib.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.629 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xquery-6utXviib.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.629 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xquery-6utXviib.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.629 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-xquery-6utXviib.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.638 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-yaml-DvR3RIln.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.638 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-yaml-DvR3RIln.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.638 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-yaml-DvR3RIln.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.638 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-yaml-DvR3RIln.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.639 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-yaml-DvR3RIln.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.639 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-yaml-DvR3RIln.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.639 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-yaml-DvR3RIln.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.639 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/worker-yaml-DvR3RIln.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.642 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/build/xml-BuMBdort.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.642 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xml-BuMBdort.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.642 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xml-BuMBdort.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.642 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xml-BuMBdort.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.642 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xml-BuMBdort.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.645 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xquery-DtBMgU-9.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.645 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xquery-DtBMgU-9.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.645 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xquery-DtBMgU-9.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.645 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xquery-DtBMgU-9.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.645 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/build/xquery-DtBMgU-9.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.645 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xquery-DtBMgU-9.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.645 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xquery-DtBMgU-9.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.646 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xquery-DtBMgU-9.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.646 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/xquery-DtBMgU-9.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.648 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/yaml-DFJF6XBc.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.648 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/yaml-DFJF6XBc.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.648 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/yaml-DFJF6XBc.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.648 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/yaml-DFJF6XBc.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.648 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/build/yaml-DFJF6XBc.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.648 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/yaml-DFJF6XBc.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.648 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/yaml-DFJF6XBc.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.648 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/yaml-DFJF6XBc.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.649 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/yaml-DFJF6XBc.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.650 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/zeek-B9xxeHEp.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.651 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/zeek-B9xxeHEp.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.651 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/zeek-B9xxeHEp.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.651 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/zeek-B9xxeHEp.js] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.651 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/build/zeek-B9xxeHEp.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.651 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/zeek-B9xxeHEp.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.651 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/zeek-B9xxeHEp.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.651 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/zeek-B9xxeHEp.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.651 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/build/zeek-B9xxeHEp.js.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.654 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/component/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.654 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/component/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.654 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/component/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.654 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/component/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.654 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/component/README.md.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.654 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/component/README.md.gz] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.654 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/component/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.655 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/component/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.655 WARNING [http-nio-8080-exec-4] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/component/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.657 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/components/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.657 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/components/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.657 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/components/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.657 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/components/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.657 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/components/README.md.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.657 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/components/README.md.gz] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.657 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/components/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.658 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/components/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.658 WARNING [http-nio-8080-exec-1] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/components/README.md] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.659 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.660 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.660 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.660 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.660 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.660 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot.gz] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.660 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.660 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.661 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.eot] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.663 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.663 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.663 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.663 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.663 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.663 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg.gz] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.663 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.664 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.664 WARNING [http-nio-8080-exec-7] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.svg] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.669 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.669 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.669 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.669 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.669 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.670 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf.gz] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.670 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.670 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.670 WARNING [http-nio-8080-exec-9] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.ttf] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.672 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.672 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.672 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.672 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.673 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff.br] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.673 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff.gz] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.673 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.673 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.673 WARNING [http-nio-8080-exec-6] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/static/themes/jmix-lumo/icons/vaadin-icons/Vaadin-Icons.woff] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.678 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/icons/icon-192x192.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.678 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/icons/icon-192x192.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.678 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/resources/icons/icon-192x192.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.679 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/resources/icons/icon-192x192.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.679 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/static/icons/icon-192x192.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.679 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/public/icons/icon-192x192.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.700 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/icons/icon-512x512.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.700 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/icons/icon-512x512.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.700 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/resources/icons/icon-512x512.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.700 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/resources/icons/icon-512x512.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.700 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/static/icons/icon-512x512.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.701 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/public/icons/icon-512x512.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.806 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.806 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.863 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/menu.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.863 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/menu.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.866 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/io/jmix/datatoolsflowui/menu.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.866 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/io/jmix/datatoolsflowui/menu.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.867 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/io/jmix/securityflowui/menu.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.867 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/io/jmix/securityflowui/menu.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.905 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.905 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.906 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.906 WARNING [http-nio-8080-exec-2] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.913 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/icons/icon-16x16.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.914 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/icons/icon-16x16.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.914 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/resources/icons/icon-16x16.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.914 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/resources/icons/icon-16x16.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.914 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/static/icons/icon-16x16.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.915 WARNING [http-nio-8080-exec-8] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/public/icons/icon-16x16.png] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.927 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/offline-stub.html] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.927 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/offline-stub.html] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.927 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/resources/offline-stub.html] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.928 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/resources/offline-stub.html] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.928 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/static/offline-stub.html] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.928 WARNING [http-nio-8080-exec-5] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/public/offline-stub.html] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.938 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/VAADIN/webapp/VAADIN/push] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.938 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/VAADIN/push] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.939 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/META-INF/resources/VAADIN/push] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.939 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/resources/VAADIN/push] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.940 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/static/VAADIN/push] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:15.940 WARNING [http-nio-8080-exec-10] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/public/VAADIN/push] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:17.924 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:17.924 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:17.953 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:17.953 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:17.953 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:17.953 WARNING [http-nio-8080-exec-3] org.apache.catalina.webresources.Cache.getResource Unable to add the resource at [/WEB-INF/classes/com/company/jmixproject/view/main/main-view.xml] to the cache for web application [/jmixProject-0.0.1] because there was insufficient free space available after evicting expired cache entries - consider increasing the maximum size of the cache
+14-Jan-2025 10:20:19.610 INFO [Catalina-utility-2] org.apache.catalina.webresources.Cache.backgroundProcess The background cache eviction process was unable to free [10] percent of the cache for Context [/jmixProject-0.0.1] - consider increasing the maximum size of the cache. After eviction approximately [9 292] KiB of data remained in the cache.
+14-Jan-2025 11:15:10.121 INFO [Thread-3] org.apache.coyote.AbstractProtocol.pause Pausing ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 11:15:10.128 INFO [Thread-3] org.apache.catalina.core.StandardService.stopInternal Stopping service [Catalina]
+14-Jan-2025 11:15:10.357 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Scheduler-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1674)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1223)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:840)
+14-Jan-2025 11:15:10.358 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Shared-0] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkUntil(LockSupport.java:410)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.awaitWork(ForkJoinPool.java:1726)
+ java.base@17.0.12/java.util.concurrent.ForkJoinPool.runWorker(ForkJoinPool.java:1623)
+ java.base@17.0.12/java.util.concurrent.ForkJoinWorkerThread.run(ForkJoinWorkerThread.java:165)
+14-Jan-2025 11:15:10.358 WARNING [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.clearReferencesThreads The web application [jmixProject-0.0.1] appears to have started a thread named [Atmosphere-Scheduler-1] but has failed to stop it. This is very likely to create a memory leak. Stack trace of thread:
+ java.base@17.0.12/jdk.internal.misc.Unsafe.park(Native Method)
+ java.base@17.0.12/java.util.concurrent.locks.LockSupport.parkNanos(LockSupport.java:252)
+ java.base@17.0.12/java.util.concurrent.locks.AbstractQueuedSynchronizer$ConditionObject.awaitNanos(AbstractQueuedSynchronizer.java:1674)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:1218)
+ java.base@17.0.12/java.util.concurrent.ScheduledThreadPoolExecutor$DelayedWorkQueue.poll(ScheduledThreadPoolExecutor.java:899)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.getTask(ThreadPoolExecutor.java:1061)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1122)
+ java.base@17.0.12/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:635)
+ java.base@17.0.12/java.lang.Thread.run(Thread.java:840)
+14-Jan-2025 11:15:10.359 SEVERE [Thread-3] org.apache.catalina.loader.WebappClassLoaderBase.checkThreadLocalMapForLeaks The web application [jmixProject-0.0.1] created a ThreadLocal with key of type [java.lang.ThreadLocal] (value [java.lang.ThreadLocal@3343196b]) and a value of type [liquibase.SingletonScopeManager] (value [liquibase.SingletonScopeManager@57e5759]) but failed to remove it when the web application was stopped. Threads are going to be renewed over time to try and avoid a probable memory leak.
+14-Jan-2025 11:15:10.383 INFO [Thread-3] org.apache.coyote.AbstractProtocol.stop Stopping ProtocolHandler ["http-nio-8080"]
+14-Jan-2025 11:15:10.409 INFO [Thread-3] org.apache.coyote.AbstractProtocol.destroy Destroying ProtocolHandler ["http-nio-8080"]

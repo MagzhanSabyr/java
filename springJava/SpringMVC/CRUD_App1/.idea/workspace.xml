@@ -11,9 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dca72c2b-76a3-40c3-b3be-4b4e4eb16583" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/maven/example/com/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maven/example/com/config/SpringConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/maven/example/com/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maven/example/com/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -70,6 +68,9 @@
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
     "nodejs_package_manager_path": "npm",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.15625",
+    "project.structure.side.proportion": "0.36708862",
     "settings.editor.selected.configurable": "preferences.lookFeel",
     "vue.rearranger.settings.migration": "true"
   },
@@ -185,7 +186,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746251796470</updated>
       <workItem from="1746251797439" duration="26424000" />
-      <workItem from="1746946654502" duration="18459000" />
+      <workItem from="1746946654502" duration="19293000" />
     </task>
     <servers />
   </component>

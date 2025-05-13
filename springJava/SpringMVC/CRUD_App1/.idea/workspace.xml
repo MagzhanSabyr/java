@@ -11,7 +11,7 @@
   <component name="ChangeListManager">
     <list default="true" id="dca72c2b-76a3-40c3-b3be-4b4e4eb16583" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/maven/example/com/config/SpringConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maven/example/com/config/SpringConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/maven/example/com/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maven/example/com/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,6 +63,7 @@
     "Tomcat Server.Tomcat 11.0.2.executor": "Run",
     "git-widget-placeholder": "main",
     "junie.onboarding.icon.badge.shown": "true",
+    "last_opened_file_path": "/Users/magzhansabyr/Desktop/GITHUB/java/springJava/SpringMVC/CRUD_App1/src/main/webapp/WEB-INF/views/batch",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
@@ -80,6 +81,11 @@
     ]
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/src/main/webapp/WEB-INF/views/batch" />
+    </key>
+  </component>
   <component name="RunManager">
     <configuration name="Tomcat 11.0.2" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 11.0.2" ALTERNATIVE_JRE_ENABLED="false" nameIsGenerated="true">
       <option name="BROWSER_ID" value="e5120d43-2c3f-47ef-9f26-65e539e05186" />
@@ -186,7 +192,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746251796470</updated>
       <workItem from="1746251797439" duration="26424000" />
-      <workItem from="1746946654502" duration="19293000" />
+      <workItem from="1746946654502" duration="21308000" />
     </task>
     <servers />
   </component>

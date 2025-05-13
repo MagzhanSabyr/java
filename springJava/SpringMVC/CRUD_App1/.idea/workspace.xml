@@ -11,7 +11,6 @@
   <component name="ChangeListManager">
     <list default="true" id="dca72c2b-76a3-40c3-b3be-4b4e4eb16583" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/maven/example/com/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maven/example/com/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -184,7 +183,7 @@
       <option name="presentableId" value="Default" />
       <updated>1746251796470</updated>
       <workItem from="1746251797439" duration="26424000" />
-      <workItem from="1746946654502" duration="8456000" />
+      <workItem from="1746946654502" duration="12744000" />
     </task>
     <servers />
   </component>

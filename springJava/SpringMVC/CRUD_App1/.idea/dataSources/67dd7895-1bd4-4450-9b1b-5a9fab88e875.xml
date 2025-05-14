@@ -3,9 +3,9 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>755</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1799</IntrospectionStateNumber>
       <ServerVersion>17.2</ServerVersion>
-      <StartupTime>1746948346</StartupTime>
+      <StartupTime>1747205860</StartupTime>
       <TimeZones>true ACDT
 true ACSST
 false ACST
@@ -800,7 +800,7 @@ false Zulu
 13634||10|C|G
 13634||-9223372036854775808|U|G
 13634||10|U|G</Grants>
-      <IntrospectionStateNumber>755</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1799</IntrospectionStateNumber>
       <ObjectId>16390</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4234,39 +4234,50 @@ false Zulu
     <schema id="266" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>755</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-05-12.15:41:11</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>1799</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-05-14.07:11:59</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>531</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
-    <table id="267" parent="266" name="person">
-      <ObjectId>16391</ObjectId>
-      <StateNumber>754</StateNumber>
+    <sequence id="267" parent="266" name="person_id_seq">
+      <ObjectId>16410</ObjectId>
+      <SequenceIdentity>1</SequenceIdentity>
+      <StartValue>1</StartValue>
+      <StateNumber>1798</StateNumber>
+      <StoredType>integer|0s</StoredType>
+      <OwnerName>postgres</OwnerName>
+    </sequence>
+    <table id="268" parent="266" name="person">
+      <ObjectId>16411</ObjectId>
+      <StateNumber>1798</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="268" parent="267" name="id">
+    <column id="269" parent="268" name="id">
+      <IdentityKind>by-default</IdentityKind>
+      <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1798</StateNumber>
       <StoredType>integer|0s</StoredType>
+      <SequenceId>16410</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="269" parent="267" name="name">
+    <column id="270" parent="268" name="name">
       <Position>2</Position>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1798</StateNumber>
       <StoredType>varchar|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="270" parent="267" name="age">
+    <column id="271" parent="268" name="age">
       <Position>3</Position>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1798</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="271" parent="267" name="email">
+    <column id="272" parent="268" name="email">
       <Position>4</Position>
-      <StateNumber>754</StateNumber>
+      <StateNumber>1798</StateNumber>
       <StoredType>varchar|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>

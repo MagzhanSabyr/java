@@ -3,7 +3,7 @@
   <database-model serializer="dbm" dbms="POSTGRES" family-id="POSTGRES" format-version="4.53">
     <root id="1">
       <DateStyle>mdy</DateStyle>
-      <IntrospectionStateNumber>1799</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1805</IntrospectionStateNumber>
       <ServerVersion>17.2</ServerVersion>
       <StartupTime>1747205860</StartupTime>
       <TimeZones>true ACDT
@@ -800,7 +800,7 @@ false Zulu
 13634||10|C|G
 13634||-9223372036854775808|U|G
 13634||10|U|G</Grants>
-      <IntrospectionStateNumber>1799</IntrospectionStateNumber>
+      <IntrospectionStateNumber>1805</IntrospectionStateNumber>
       <ObjectId>16390</ObjectId>
       <OwnerName>postgres</OwnerName>
     </database>
@@ -4234,52 +4234,92 @@ false Zulu
     <schema id="266" parent="2" name="public">
       <Comment>standard public schema</Comment>
       <Current>1</Current>
-      <IntrospectionStateNumber>1799</IntrospectionStateNumber>
-      <LastIntrospectionLocalTimestamp>2025-05-14.07:11:59</LastIntrospectionLocalTimestamp>
+      <IntrospectionStateNumber>1805</IntrospectionStateNumber>
+      <LastIntrospectionLocalTimestamp>2025-05-14.09:33:17</LastIntrospectionLocalTimestamp>
       <ObjectId>2200</ObjectId>
       <StateNumber>531</StateNumber>
       <OwnerName>pg_database_owner</OwnerName>
     </schema>
     <sequence id="267" parent="266" name="person_id_seq">
-      <ObjectId>16410</ObjectId>
+      <ObjectId>16416</ObjectId>
       <SequenceIdentity>1</SequenceIdentity>
       <StartValue>1</StartValue>
-      <StateNumber>1798</StateNumber>
+      <StateNumber>1804</StateNumber>
       <StoredType>integer|0s</StoredType>
       <OwnerName>postgres</OwnerName>
     </sequence>
     <table id="268" parent="266" name="person">
-      <ObjectId>16411</ObjectId>
-      <StateNumber>1798</StateNumber>
+      <ObjectId>16417</ObjectId>
+      <StateNumber>1804</StateNumber>
       <AccessMethodId>2</AccessMethodId>
       <OwnerName>postgres</OwnerName>
     </table>
-    <column id="269" parent="268" name="id">
+    <check id="269" parent="268" name="person_age_check">
+      <ColNames>age</ColNames>
+      <ObjectId>16420</ObjectId>
+      <Predicate>age &gt; 0</Predicate>
+      <StateNumber>1804</StateNumber>
+    </check>
+    <column id="270" parent="268" name="id">
       <IdentityKind>by-default</IdentityKind>
       <NotNull>1</NotNull>
       <Position>1</Position>
-      <StateNumber>1798</StateNumber>
+      <StateNumber>1804</StateNumber>
       <StoredType>integer|0s</StoredType>
-      <SequenceId>16410</SequenceId>
+      <SequenceId>16416</SequenceId>
       <TypeId>23</TypeId>
     </column>
-    <column id="270" parent="268" name="name">
+    <column id="271" parent="268" name="name">
+      <NotNull>1</NotNull>
       <Position>2</Position>
-      <StateNumber>1798</StateNumber>
+      <StateNumber>1804</StateNumber>
       <StoredType>varchar|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
-    <column id="271" parent="268" name="age">
+    <column id="272" parent="268" name="age">
       <Position>3</Position>
-      <StateNumber>1798</StateNumber>
+      <StateNumber>1804</StateNumber>
       <StoredType>integer|0s</StoredType>
       <TypeId>23</TypeId>
     </column>
-    <column id="272" parent="268" name="email">
+    <column id="273" parent="268" name="email">
       <Position>4</Position>
-      <StateNumber>1798</StateNumber>
+      <StateNumber>1804</StateNumber>
       <StoredType>varchar|0s</StoredType>
       <TypeId>1043</TypeId>
     </column>
+    <index id="274" parent="268" name="person_pkey">
+      <ColNames>id</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16423</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>1804</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+    </index>
+    <index id="275" parent="268" name="person_email_key">
+      <ColNames>email</ColNames>
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16425</ObjectId>
+      <StateNumber>1804</StateNumber>
+      <Unique>1</Unique>
+      <AccessMethodId>403</AccessMethodId>
+      <CollationNames>default</CollationNames>
+      <CollationIds>100</CollationIds>
+      <CollationParentNames>pg_catalog</CollationParentNames>
+    </index>
+    <key id="276" parent="268" name="person_pkey">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16424</ObjectId>
+      <Primary>1</Primary>
+      <StateNumber>1804</StateNumber>
+      <UnderlyingIndexId>16423</UnderlyingIndexId>
+    </key>
+    <key id="277" parent="268" name="person_email_key">
+      <NameSurrogate>1</NameSurrogate>
+      <ObjectId>16426</ObjectId>
+      <StateNumber>1804</StateNumber>
+      <UnderlyingIndexId>16425</UnderlyingIndexId>
+    </key>
   </database-model>
 </dataSource>

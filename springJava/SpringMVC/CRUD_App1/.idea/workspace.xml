@@ -10,10 +10,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="dca72c2b-76a3-40c3-b3be-4b4e4eb16583" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67dd7895-1bd4-4450-9b1b-5a9fab88e875.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/67dd7895-1bd4-4450-9b1b-5a9fab88e875.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/67dd7895-1bd4-4450-9b1b-5a9fab88e875/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/67dd7895-1bd4-4450-9b1b-5a9fab88e875/storage_v2/_src_/database/first_db.bWA53w/schema/public.abK9xQ.meta" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/maven/example/com/dao/PersonDAO.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/maven/example/com/dao/PersonDAO.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -196,7 +193,7 @@
       <workItem from="1746251797439" duration="26424000" />
       <workItem from="1746946654502" duration="22034000" />
       <workItem from="1747201994978" duration="758000" />
-      <workItem from="1747203594145" duration="1897000" />
+      <workItem from="1747203594145" duration="3557000" />
     </task>
     <servers />
   </component>
